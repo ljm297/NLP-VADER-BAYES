@@ -1,0 +1,25 @@
+[{
+  "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n",
+  "stream_name": "stderr",
+  "time": 4.299221398003283
+},{
+  "data": "[NbConvertApp] Executing notebook with kernel: python3\n",
+  "stream_name": "stderr",
+  "time": 8.469286583000212
+},{
+  "data": "[NbConvertApp] Writing 1195646 bytes to __notebook__.ipynb\n",
+  "stream_name": "stderr",
+  "time": 2188.794963006003
+},{
+  "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to html\n",
+  "stream_name": "stderr",
+  "time": 2190.0525489379943
+},{
+  "data": "[NbConvertApp] Support files will be in __results___files/\n[NbConvertApp] Making directory __results___files\n",
+  "stream_name": "stderr",
+  "time": 2191.239653294004
+},{
+  "data": "[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Writing 353948 bytes to __results__.html\n",
+  "stream_name": "stderr",
+  "time": 2191.2446370560065
+}]
