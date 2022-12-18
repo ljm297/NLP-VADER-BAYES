@@ -1,6 +1,6 @@
 import os
 import csv
-def smote():
+def noNeutral():
     #drop columns we dont care about
     with open("./output/sentiment_out.csv","r") as source:
         rdr= csv.reader( source )
@@ -18,4 +18,4 @@ def smote():
                     wtr.writerow(r)
     #remove temp file
     os.remove("./output/sentiment_temp.csv")                      
-smote()
+noNeutral()
