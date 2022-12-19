@@ -28,6 +28,8 @@ The classifier is in `sentimental-analysis-using-naive-bayes-classifier.ipynb`
 
 Details of training and testing can also be found in the same file.
 
+## Contributions
+Github Repo: ljm297 & ml6754 see commit history for details
 
 ## Referece
 Data Cleaning and Vader Algorithm Usage:
