@@ -11,7 +11,7 @@ def smote():
     #remove neutral elements
     with open("./output/sentiment_temp.csv","r") as result:
         rdr = csv.reader(result)
-        with open("./output/noNeutral.csv","w", newline='', encoding='utf-8') as writeresult:
+        with open("output/noNeutral_train.csv", "w", newline='', encoding='utf-8') as writeresult:
             wtr = csv.writer(writeresult)
             for r in rdr:
                 if r[1] != "Neutral":

@@ -1,0 +1,221 @@
+['animator problem'
+ 'characters cliche disnay displeasure fast feel film guess hate idealistic kinda made movies narrative noticed pretty realize recicled repetitions repetitive scenes sick strictly stuff subconsciously watched'
+ 'brooding convince destiny hearts islands kingdom moana monu paopu petty reusing tree'
+ ... 'effects pilot smoke'
+ 'animated daleks evolution extermin iceman notice recently show sound sounded'
+ 'animation easter eggs film inspiration pixar recycling wonder']
+Distribution before NearMiss-1: Counter({1: 7733, 0: 3298})
+Distribution after NearMiss-1: Counter({0: 3298, 1: 3298})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.59      0.87      0.70       366
+           1       0.93      0.74      0.82       860
+
+    accuracy                           0.78      1226
+   macro avg       0.76      0.81      0.76      1226
+weighted avg       0.83      0.78      0.79      1226
+
+[[320  46]
+ [225 635]]
+
+
+
+['fight' 'flop' 'channing petti' ...
+ 'awesome dagger fucking gifs maise mov part' 'hand' 'arya sansa wife']
+Distribution before NearMiss-1: Counter({1: 7733, 0: 3298})
+Distribution after NearMiss-1: Counter({0: 3298, 1: 3298})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.59      0.91      0.72       366
+           1       0.95      0.73      0.83       860
+
+    accuracy                           0.78      1226
+   macro avg       0.77      0.82      0.77      1226
+weighted avg       0.84      0.78      0.79      1226
+
+[[332  34]
+ [230 630]]
+
+
+
+['fight' 'flop' 'channing petti' ... 'cute' 'ador' 'fantast']
+Distribution before NearMiss-1: Counter({1: 7733, 0: 3298})
+Distribution after NearMiss-1: Counter({0: 3298, 1: 3298})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.63      0.91      0.74       366
+           1       0.95      0.77      0.85       860
+
+    accuracy                           0.81      1226
+   macro avg       0.79      0.84      0.80      1226
+weighted avg       0.86      0.81      0.82      1226
+
+[[334  32]
+ [199 661]]
+
+
+
+['fight' 'flop' 'channing petti' ...
+ 'amazon books bundl nhttps stars troll' 'brogan nic'
+ 'author highly hope humor wonder']
+Distribution before NearMiss-1: Counter({1: 7734, 0: 3297})
+Distribution after NearMiss-1: Counter({0: 3297, 1: 3297})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.59      0.88      0.71       367
+           1       0.93      0.74      0.83       859
+
+    accuracy                           0.78      1226
+   macro avg       0.76      0.81      0.77      1226
+weighted avg       0.83      0.78      0.79      1226
+
+[[322  45]
+ [221 638]]
+
+
+
+['fight' 'flop' 'channing petti' ...
+ 'awful completely film happen mcewan waiting'
+ 'baha cute lotttt motion sickness super swinging' 'amaz hear phil']
+Distribution before NearMiss-1: Counter({1: 7734, 0: 3297})
+Distribution after NearMiss-1: Counter({0: 3297, 1: 3297})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.61      0.89      0.72       367
+           1       0.94      0.75      0.84       859
+
+    accuracy                           0.79      1226
+   macro avg       0.77      0.82      0.78      1226
+weighted avg       0.84      0.79      0.80      1226
+
+[[325  42]
+ [212 647]]
+
+
+
+['fight' 'flop' 'channing petti' ... 'anderson kind'
+ 'bullshitin fantast guys' 'fantastic giving vib']
+Distribution before NearMiss-1: Counter({1: 7734, 0: 3297})
+Distribution after NearMiss-1: Counter({0: 3297, 1: 3297})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.61      0.90      0.73       367
+           1       0.95      0.76      0.84       859
+
+    accuracy                           0.80      1226
+   macro avg       0.78      0.83      0.79      1226
+weighted avg       0.85      0.80      0.81      1226
+
+[[332  35]
+ [208 651]]
+
+
+
+['fight' 'flop' 'channing petti' ... 'awesom' 'definitely scene season'
+ 'choregraphi']
+Distribution before NearMiss-1: Counter({1: 7734, 0: 3297})
+Distribution after NearMiss-1: Counter({0: 3297, 1: 3297})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.62      0.88      0.73       367
+           1       0.94      0.77      0.85       859
+
+    accuracy                           0.81      1226
+   macro avg       0.78      0.83      0.79      1226
+weighted avg       0.84      0.81      0.81      1226
+
+[[324  43]
+ [196 663]]
+
+
+
+['fight' 'flop' 'channing petti' ... 'breen neil sounds written'
+ 'book enjoyed funni glad lololol writer' 'sal spike wonder']
+Distribution before NearMiss-1: Counter({1: 7734, 0: 3298})
+Distribution after NearMiss-1: Counter({0: 3298, 1: 3298})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.55      0.91      0.69       366
+           1       0.95      0.68      0.79       859
+
+    accuracy                           0.75      1225
+   macro avg       0.75      0.80      0.74      1225
+weighted avg       0.83      0.75      0.76      1225
+
+[[332  34]
+ [271 588]]
+
+
+
+['fight' 'flop' 'channing petti' ... 'lazy loved open reddit'
+ 'article beautiful believe canada truro' 'button']
+Distribution before NearMiss-1: Counter({1: 7734, 0: 3298})
+Distribution after NearMiss-1: Counter({0: 3298, 1: 3298})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.60      0.88      0.71       366
+           1       0.94      0.75      0.83       859
+
+    accuracy                           0.79      1225
+   macro avg       0.77      0.82      0.77      1225
+weighted avg       0.84      0.79      0.80      1225
+
+[[322  44]
+ [214 645]]
+
+
+
+['fight' 'flop' 'channing petti' ...
+ 'eternal hulk meets mind monster pitch sounds spotless sunshine'
+ 'episode fantastic film pitch roth scarlett spectacular spencer vision wanna witch'
+ 'argument champ fight interesting point probably shafted spencers']
+Distribution before NearMiss-1: Counter({1: 7734, 0: 3298})
+Distribution after NearMiss-1: Counter({0: 3298, 1: 3298})
+--------------
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.57      0.89      0.70       366
+           1       0.94      0.72      0.81       859
+
+    accuracy                           0.77      1225
+   macro avg       0.75      0.80      0.75      1225
+weighted avg       0.83      0.77      0.78      1225
+
+[[325  41]
+ [243 616]]
+
+
+
+--------------------TEST SET--------------------------
+
+Result with undersampling
+              precision    recall  f1-score   support
+
+           0       0.57      0.90      0.70      1595
+           1       0.94      0.70      0.81      3659
+
+    accuracy                           0.76      5254
+   macro avg       0.76      0.80      0.75      5254
+weighted avg       0.83      0.76      0.77      5254
+
+[[1435  160]
+ [1082 2577]]
