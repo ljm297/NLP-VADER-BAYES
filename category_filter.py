@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 CATEGORY = 1
 
-file = pd.read_csv('./input/USvideos.csv',error_bad_lines=False)
+file = pd.read_csv('./Input for Vader(Raw)/USvideos.csv',error_bad_lines=False)
 df = pd.DataFrame(file,columns=['video_id','title','channel_title','category_id','tags','views','likes','dislikes',
 'comment_total','thumbnail_link','date'])
 
@@ -14,8 +14,8 @@ print(res.info())
 f = open("./input/youtube/temp_videos.csv",'w')
 res.to_csv("./input/youtube/temp_videos.csv", index=False)
 
-main = pd.read_csv("./input/UScomments.csv",error_bad_lines=False)
-par = pd.read_csv("./input/youtube/temp_videos.csv",error_bad_lines=False)
+main = pd.read_csv("./Input for Vader(Raw)/UScomments.csv",error_bad_lines=False)
+par = pd.read_csv("./Input for Vader(Raw)/UScomments-CATE-1/CATE1_videos.csv",error_bad_lines=False)
 
 #transform the dataframes to lists of dictionaries
 main_dict=main.to_dict(orient='records')
@@ -30,4 +30,4 @@ result = [i for i in main_dict if {'video_id':i['video_id']} in par_dict]
 #change back to dataframe and save to csv
 result=pd.DataFrame(result)
 
-result.to_csv('./input/youtube/temp_comments.csv', index=False)
+result.to_csv('./Input for Vader(Raw)/UScomments-CATE-1/CATE1_comments.csv', index=False)
